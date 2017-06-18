@@ -1,0 +1,566 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/gurghet/Documents/shift/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.2
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+14 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServer$.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServer.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp$.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp$delayedInit$body.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$$anon$1.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$$anon$2.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$anon$macro$5$1.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$myInt$.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$myInt.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes.class
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/SimpleRoutes.class
+binary dependencies:
+23 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.1.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.1.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/de.heikoseeberger/akka-http-circe_2.12/jars/akka-http-circe_2.12-1.16.0.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.8.0.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.8.0.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> /Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+1 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> /Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala
+inheritance external dependencies:
+0 items
+class names:
+14 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> com.example.WebServer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> com.example.WebServer$
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> com.example.WebServerHttpApp
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> com.example.WebServerHttpApp$
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> com.example.WebServerHttpApp$delayedInit$body
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$anon$exportEncoder$macro$9$1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$anon$exportEncoder$macro$9$1$$anon$1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$anon$exportEncoder$macro$9$1$$anon$2
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$anon$exportEncoder$macro$9$1$anon$macro$5$1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$myInt
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com.example.routes.BaseRoutes$myInt$
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> com.example.routes.SimpleRoutes
+used names:
+391 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> <init>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> <repeated>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ActorMaterializer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ActorMaterializerSettings
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ActorRefFactory
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ActorSystem
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Any
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Array
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> BaseRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ConnectionContext
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Directives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ExceptionHandler
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ExecutionContext
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ExecutionContextExecutor
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Flow
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Function1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Future
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Http
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> HttpExt
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> HttpRequest
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> HttpResponse
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Int
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> LoggingAdapter
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Materializer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> NotUsed
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Nothing
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Object
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Option
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ParserSettings
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Predef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RejectionHandler
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Route
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RouteConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RouteResult
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RoutingLog
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> RoutingSettings
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> S
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ServerBinding
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ServerSettings
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> SimpleRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> StdIn
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> String
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> StringContext
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Terminated
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Try
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> U
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> Unit
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> WebServer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> _enhanceRouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> actor
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> akka
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> apply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> baseRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> bindAndHandle
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> bindingFuture
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> com
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> default
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> dispatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> example
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> executionContext
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> flatMap
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> fromActorSystem
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> http
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> io
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> materializer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> onComplete
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> package
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> println
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> qual$1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> readLine
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> route2HandlerFlow
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> routes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> s
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> scala
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> scaladsl
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> server
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> settings
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> simpleRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> stream
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> system
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> terminate
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> unbind
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$10
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$11
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$12
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$13
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$14
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$15
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$16
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$3
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$4
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$5
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$6
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$7
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$8
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> x$9
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> ~
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> $buf
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> &+
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> <byname>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> <init>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> <repeated>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> A
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Any
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> App
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Boolean
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Directive
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Directive0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Elem
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Function1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> HttpApp
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Int
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> L
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Marshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> MetaData
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> NamespaceBinding
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Node
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> NodeBuffer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> NodeSeq
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Nothing
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Null
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> PathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> PathMatcher0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Predef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Route
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> RouteConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> RouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> ScalaXmlSupport
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> StandardRoute
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> String
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> StringMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> T
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Text
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> ToEntityMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> ToResponseMarshallable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> ToResponseMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> TopScope
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> Unit
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> WebServerHttpApp
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> _enhanceRouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> _segmentStringToPathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> addByNameNullaryApply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> akka
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> apply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> com
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> complete
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> defaultNodeSeqMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> example
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> get
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> http
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> liftMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> marshallers
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> marshalling
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> package
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> path
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> pathEndOrSingleSlash
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> scala
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> scaladsl
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> server
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> startServer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> xml
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> ~
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> $anon
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> $conforms
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> &&
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ::
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> <:<
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> <byname>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> <init>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> <refinement>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> <repeated>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ==
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> A
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> AbstractFunction1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Any
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> AnyRef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Aux
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> BaseRoutes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Boolean
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> DefaultSymbolicLabelling
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> DerivedObjectEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Directive
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Directive0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Encoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> EncoderOps
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Exported
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> FailFastCirceSupport
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> FieldType
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Function1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Generic
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> H
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> HList
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> HNil
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> I
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> IndexOutOfBoundsException
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Int
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Iterable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Iterator
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Json
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> JsonObject
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> K
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> KH
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> KT
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> KeyTag
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> L
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> LabelledGeneric
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Lazy
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Marshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> MatchError
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> None
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Nothing
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Object
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ObjectEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Option
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Out
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> PathDirectives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> PathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> PathMatcher0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Predef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Printer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Product
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> R
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Repr
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ReprObjectEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Route
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> RouteConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> RouteDirectives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> RouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ScalaRunTime
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Serializable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Some
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> StandardRoute
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Statics
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> String
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Symbol
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> T
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> T0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> T1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> T2
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Tagged
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ToEntityMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ToResponseMarshallable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ToResponseMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Tuple2
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> V
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> VH
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> VT
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Vector
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> Witness
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ZipWithKeys
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> _enhanceRouteWithConcatenation
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> _root_
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> _segmentStringToPathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> _toString
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> a
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> addByNameNullaryApply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> akka
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> akkahttpcirce
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> anon$exportEncoder$macro$9
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> anon$macro$5
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> apply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> asInstanceOf
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> asJson
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> auto
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> circe
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> collection
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> com
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> complete
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> de
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> deriveEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> deriveReprObjectEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> directives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> encodeInt
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> encodeString
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> encoding
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> eq
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> example
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> export
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> exportEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> finalizeHash
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> fresh$macro$7
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> fresh$macro$8
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> fromIterable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> generic
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> hconsZipWithKeys
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> head
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> heikoseeberger
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> hlist
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> hnilZipWithKeys
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> http
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> immutable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> importedEncoder
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> inst$macro$1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> inst$macro$10
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> inst$macro$6
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> int
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> io
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> isInstanceOf
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> jsonMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> labelled
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> lazily
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> liftMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> marshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> marshalling
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> materialize
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> materializeProduct
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> mix
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> mkDefaultSymbolicLabelling
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> mkLazy
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> mkWitness
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> myInt
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ne
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> p
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> package
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> parser
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> pat$macro$4
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> path
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> pathEndOrSingleSlash
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> routes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> runtime
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> scala
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> scaladsl
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> server
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> shapeless
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> syntax
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> tag
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> tail
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> toString
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> typedProductIterator
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ||
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> ~
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> $buf
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> &+
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> <byname>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> <init>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> <repeated>
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> A
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Any
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> AnyRef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Boolean
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Directive
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Directive0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Elem
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Function1
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> L
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Marshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> MetaData
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> MethodDirectives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> NamespaceBinding
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Node
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> NodeBuffer
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> NodeSeq
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Nothing
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Null
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> PathDirectives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> PathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> PathMatcher0
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Predef
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Route
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> RouteDirectives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> ScalaXmlSupport
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> StandardRoute
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> String
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> T
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> Text
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> ToEntityMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> ToResponseMarshallable
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> ToResponseMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> TopScope
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> _segmentStringToPathMatcher
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> addByNameNullaryApply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> akka
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> apply
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> com
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> complete
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> defaultNodeSeqMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> directives
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> example
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> get
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> http
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> liftMarshaller
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> marshallers
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> marshalling
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> package
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> path
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> routes
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> scala
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> scaladsl
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> server
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> xml
+product stamps:
+14 items
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServer$.class -> lastModified(1495916595000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServer.class -> lastModified(1495916595000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp$.class -> lastModified(1495905828000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp$delayedInit$body.class -> lastModified(1495905828000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/WebServerHttpApp.class -> lastModified(1495905828000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$$anon$1.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$$anon$2.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1$anon$macro$5$1.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$anon$exportEncoder$macro$9$1.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$myInt$.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes$myInt.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/BaseRoutes.class -> lastModified(1495916594000)
+/Users/gurghet/Documents/shift/target/scala-2.12/classes/com/example/routes/SimpleRoutes.class -> lastModified(1495905828000)
+source stamps:
+4 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> hash(8cc887312b7b1ebd67fe5cbbb371f23230d3cdfe)
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> hash(771d1db85604be490ee64bcd617bd3c2ddf8dcbf)
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> hash(9df0fa0db6dcc52bb82d5fdbc667e2602cd79fd5)
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> hash(46a3b4436db0a11a6150b143aaeea139915b08b7)
+binary stamps:
+12 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466622116000)
+/Users/gurghet/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar -> lastModified(1478080252000)
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.1.jar -> lastModified(1493718089000)
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.6.jar -> lastModified(1493818059000)
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.6.jar -> lastModified(1493818070000)
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar -> lastModified(1493818075000)
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.1.jar -> lastModified(1493718307000)
+/Users/gurghet/.ivy2/cache/de.heikoseeberger/akka-http-circe_2.12/jars/akka-http-circe_2.12-1.16.0.jar -> lastModified(1494584619000)
+/Users/gurghet/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.8.0.jar -> lastModified(1494338735000)
+/Users/gurghet/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.8.0.jar -> lastModified(1494338809000)
+/Users/gurghet/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar -> lastModified(1477696209000)
+/Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> lastModified(1492071552000)
+class names:
+12 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/gurghet/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.2.jar -> shapeless.DefaultSymbolicLabelling
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.1.jar -> akka.actor.ActorRefFactory
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-core_2.12/jars/akka-http-core_2.12-10.0.6.jar -> akka.http.scaladsl.settings.RoutingSettings$
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http-xml_2.12/jars/akka-http-xml_2.12-10.0.6.jar -> akka.http.scaladsl.marshallers.xml.ScalaXmlSupport
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-http_2.12/jars/akka-http_2.12-10.0.6.jar -> akka.http.scaladsl.server.Directives
+/Users/gurghet/.ivy2/cache/com.typesafe.akka/akka-stream_2.12/jars/akka-stream_2.12-2.5.1.jar -> akka.stream.ActorMaterializer$
+/Users/gurghet/.ivy2/cache/de.heikoseeberger/akka-http-circe_2.12/jars/akka-http-circe_2.12-1.16.0.jar -> de.heikoseeberger.akkahttpcirce.FailFastCirceSupport$
+/Users/gurghet/.ivy2/cache/io.circe/circe-core_2.12/jars/circe-core_2.12-0.8.0.jar -> io.circe.ObjectEncoder
+/Users/gurghet/.ivy2/cache/io.circe/circe-generic_2.12/jars/circe-generic_2.12-0.8.0.jar -> io.circe.generic.encoding.ReprObjectEncoder
+/Users/gurghet/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar -> scala.xml.Node
+/Users/gurghet/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.2.jar -> scala.StringContext
+internal apis:
+4 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwvH944AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAlzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHAwN7JBdAAKX3N5bWJvbDJOUnNxAH4AC4uc+sx0AAJldnNxAH4AC4wMRw10AB5fZW5oYW5jZVJvdXRlV2l0aENvbmNhdGVuYXRpb25zcQB+AAvAl0NZdAAVX3ZhbHVlTWFwMlBhdGhNYXRjaGVyc3EAfgALKMwZ93QAJ19zdHJpbmdOYW1lT3B0aW9uUmVjZXB0YWNsZTJQYXRoTWF0Y2hlcnNxAH4AC/kx0ld0ACFfc3RyaW5nRXh0cmFjdGlvblBhaXIyUGF0aE1hdGNoZXJzcQB+AAtdnezpdAAbX3NlZ21lbnRTdHJpbmdUb1BhdGhNYXRjaGVyc3EAfgALrwGFeHQACl9zdHJpbmcyTlJzcQB+AAsiTwNAdAASX3JlZ2V4MlBhdGhNYXRjaGVydXEAfgAJAAAA5nNxAH4ACz9PP1t0ABVleHRyYWN0UGFyc2VyU2V0dGluZ3NzcQB+AAuCx4FMdAAJZm9ybUZpZWxkc3EAfgAL2c3IcnQAEHdpdGhSYW5nZVN1cHBvcnRzcQB+AAvTY7n6dAASd2l0aFJlcXVlc3RUaW1lb3V0c3EAfgAL/EUVPXQAFHBhdGhFbmRPclNpbmdsZVNsYXNoc3EAfgALFp80Y3QABm5vdGlmeXNxAH4AC2sHarl0AAlJbnROdW1iZXJzcQB+AAsoIyZ+dAARYXV0aGVudGljYXRlQmFzaWNzcQB+AAuZO3h/dAATZXh0cmFjdFN0cmljdEVudGl0eXNxAH4AC8T76cZ0AA9wYXRoU2luZ2xlU2xhc2hzcQB+AAurKaTTdAAYcmVzcG9uc2VFbmNvZGluZ0FjY2VwdGVkc3EAfgAL1qiq8nQABm1ldGhvZHNxAH4ACyl2J/t0AARwb3N0c3EAfgALfBdhqXQAEm1hcFJvdXRlUmVzdWx0V2l0aHNxAH4AC+sdOEJ0ABdhdXRoZW50aWNhdGVPQXV0aDJBc3luY3NxAH4ACx/8JMB0ABFoZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC91dd4B0AApmaWxlVXBsb2Fkc3EAfgALlq1kPXQADVJlbWFpbmluZ1BhdGhzcQB+AAsAiRxcdAAJUmVtYWluaW5nc3EAfgAL9DQFfHQAFW9wdGlvbmFsSGVhZGVyVmFsdWVQRnNxAH4ACyLbD350AAh0cHJvdmlkZXNxAH4ACwY/oqN0AAlwYXJhbWV0ZXJzcQB+AAvlRvcpdAANZXh0cmFjdE1ldGhvZHNxAH4AC8CCpfl0ABlyZXNwb25kV2l0aERlZmF1bHRIZWFkZXJzc3EAfgAL0s2kb3QAEnJlc3BvbmRXaXRoSGVhZGVyc3NxAH4AC8GVDRB0ABp3aXRoUmVxdWVzdFRpbWVvdXRSZXNwb25zZXNxAH4AC2QymDR0AAR3YWl0c3EAfgAL7XMEtHQAFWxpc3REaXJlY3RvcnlDb250ZW50c3NxAH4AC8LG73l0ABlleHRyYWN0VXBncmFkZVRvV2ViU29ja2V0c3EAfgALvgHBFnQADSRhc0luc3RhbmNlT2ZzcQB+AAvpBkE8dAAEcGF0aHNxAH4AC3Ok+dl0ABlleHRyYWN0T2ZmZXJlZFdzUHJvdG9jb2xzc3EAfgALmXjIJHQABnJvdXRlc3NxAH4AC2c2EiN0AAppbnN0YW5jZU9mc3EAfgALRDRSWHQAB05ldXRyYWxzcQB+AAtuotILdAAHY29tcG9zZXNxAH4AC5Moy2V0AAhyZWRpcmVjdHNxAH4AC2ngmMp0ABJyZXF1ZXN0RW50aXR5RW1wdHlzcQB+AAu2geBldAANaGVhZGVyVmFsdWVQRnNxAH4AC8K9++B0AA5hdXRob3JpemVBc3luY3NxAH4AC3KNlHV0AAdQYXRoRW5kc3EAfgALtSPc+HQAD2Zyb21EZWNpbWFsQ2hhcnNxAH4AC9iAoJ90AAxmb3JtRmllbGRNYXBzcQB+AAslqC4KdAAQZXh0cmFjdERhdGFCeXRlc3NxAH4ACzEFZcp0AAZlcXVhbHNzcQB+AAt5dbmEdAAPQXV0aGVudGljYXRvclBGc3EAfgAL253wgnQACG1pbnVzT25lc3EAfgALKmcognQAEXJhd1BhdGhQcmVmaXhUZXN0c3EAfgALC5Sj2XQAGGdldEZyb21SZXNvdXJjZURpcmVjdG9yeXNxAH4AC0CYenJ0ABNvcHRpb25hbEhlYWRlclZhbHVlc3EAfgALhF5aLnQAEGdldEZyb21EaXJlY3RvcnlzcQB+AAs7sO2jdAAIdGV4dHJhY3RzcQB+AAtgv2HqdAAKbWF4RGl2QmFzZXNxAH4AC1SsTyR0ACJnZXRGcm9tUmVzb3VyY2VEaXJlY3RvcnkkZGVmYXVsdCQyc3EAfgALMbRIf3QAC21hcFNldHRpbmdzc3EAfgALt2sByXQABGhlYWRzcQB+AAt814VZdAAXaGFuZGxlV2ViU29ja2V0TWVzc2FnZXNzcQB+AAvfBYZddAAMYXNJbnN0YW5jZU9mc3EAfgALdaM/xHQAEGhhbmRsZVJlamVjdGlvbnNzcQB+AAsfDM1wdAAKcGF0aFByZWZpeHNxAH4AC2h11xR0AA1IZXhMb25nTnVtYmVyc3EAfgAL+tRamnQAKmhhbmRsZVdlYlNvY2tldE1lc3NhZ2VzRm9yT3B0aW9uYWxQcm90b2NvbHNxAH4ACxAxX1x0AAxIZXhJbnROdW1iZXJzcQB+AAs0TVlGdAAEaG9zdHNxAH4ACwqAGFh0ABhyZXNwb25kV2l0aERlZmF1bHRIZWFkZXJzcQB+AAsd7FaBdAAMcGFyYW1ldGVyTWFwc3EAfgAL1V3Q7XQADnRvU3RyaWN0RW50aXR5c3EAfgALqvDNsnQACkxvbmdOdW1iZXJzcQB+AAsboZSLdAAIdmFsaWRhdGVzcQB+AAvfkqV1dAAMc3luY2hyb25pemVkc3EAfgALveDCKHQAE3JlamVjdEVtcHR5UmVzcG9uc2VzcQB+AAsJV1aNdAAIZnJvbUNoYXJzcQB+AAvddYHudAAHdW5hcnlfIXNxAH4AC82Opz50AA9nZXRGcm9tUmVzb3VyY2VzcQB+AAtgWAvpdAAScmVxdWVzdEVuY29kZWRXaXRoc3EAfgALAFfFXXQABmNvbmNhdHNxAH4AC+Zc1nJ0ACF3aXRoUHJlY29tcHJlc3NlZE1lZGlhVHlwZVN1cHBvcnRzcQB+AAvdUuRPdAASYXV0aGVudGljYXRlT0F1dGgyc3EAfgALVjsRBXQAFXJlY292ZXJSZWplY3Rpb25zV2l0aHNxAH4AC95IKiN0AA0kaXNJbnN0YW5jZU9mc3EAfgALqQJ313QAD2NhbmNlbFJlamVjdGlvbnNxAH4ACwPHjUR0ACByZWRpcmVjdFRvVHJhaWxpbmdTbGFzaElmTWlzc2luZ3NxAH4ACw3HxCl0AAdhbmRUaGVuc3EAfgALafoVxnQACVdlYlNlcnZlcnNxAH4AC5vY3RZ0AAxkZWxldGVDb29raWVzcQB+AAvveGvedAACYXNzcQB+AAteF6CWdAANZXh0cmFjdFNjaGVtZXNxAH4AC2Z+T+50ABJBc3luY0F1dGhlbnRpY2F0b3JzcQB+AAvRAPJhdAAYYXV0aGVudGljYXRlQmFzaWNQRkFzeW5jc3EAfgALLpQtxHQAAXxzcQB+AAu/+5yLdAALZXh0cmFjdEhvc3RzcQB+AAvCCcQUdAAWZGVsZXRlQ29va2llJGRlZmF1bHQkM3NxAH4AC9+W95F0ABJtYXBSZXNwb25zZUhlYWRlcnNzcQB+AAtH65xidAAUcmVxdWVzdEVudGl0eVByZXNlbnRzcQB+AAvXIepidAAOZW5jb2RlUmVzcG9uc2VzcQB+AAtOXdKvdAAEbWFpbnNxAH4AC5mBSgJ0ABJleHRyYWN0QWN0b3JTeXN0ZW1zcQB+AAtDbuwZdAAMc2ltcGxlUm91dGVzc3EAfgALaNA9ZXQAFWV4dHJhY3RSZXF1ZXN0Q29udGV4dHNxAH4AC3Kc/Gx0ABJlbmNvZGVSZXNwb25zZVdpdGhzcQB+AAt3HI0BdAAHcHJvdmlkZXNxAH4AC7PUIlt0AAZyZWplY3RzcQB+AAtttuStdAAJbm90aWZ5QWxsc3EAfgALCvr14nQAGmdldEZyb21Ccm93c2VhYmxlRGlyZWN0b3J5c3EAfgAL5sq+5XQAC2NvbmRpdGlvbmFsc3EAfgALm4AlTnQAGW9wdGlvbmFsSGVhZGVyVmFsdWVCeU5hbWVzcQB+AAsQCJgqdAAEdG1hcHNxAH4AC68zgHJ0AApleHRyYWN0VXJpc3EAfgALHG3gnHQADGlzSW5zdGFuY2VPZnNxAH4AC35IfL50ACJyZWRpcmVjdFRvTm9UcmFpbGluZ1NsYXNoSWZQcmVzZW50c3EAfgALeGchrXQAB3BhdGhFbmRzcQB+AAvd/2azdAANcmF3UGF0aFByZWZpeHNxAH4ACwVY3l10AAdvcHRpb25zc3EAfgALRCmLNXQACm1hcFJlcXVlc3RzcQB+AAtqPXuXdAAiaGFuZGxlV2ViU29ja2V0TWVzc2FnZXNGb3JQcm90b2NvbHNxAH4AC1YeAql0AAlvblN1Y2Nlc3NzcQB+AAt1UjmpdAARbWFwUmVzcG9uc2VFbnRpdHlzcQB+AAu+RiAYdAAUd2l0aEV4ZWN1dGlvbkNvbnRleHRzcQB+AAtPtbxidAAIZmFpbFdpdGhzcQB+AAtibhU4dAAQbWFwVW5tYXRjaGVkUGF0aHNxAH4AC4IXY2R0AAY8aW5pdD5zcQB+AAt2aQfsdAALZ2V0RnJvbUZpbGVzcQB+AAvb8SuydAAVb25Db21wbGV0ZVdpdGhCcmVha2Vyc3EAfgALx3Jd9nQAEGxvZ1JlcXVlc3RSZXN1bHRzcQB+AAuoqKuWdAANbWFwSW5uZXJSb3V0ZXNxAH4AC6yGHmJ0AAdTZWdtZW50c3EAfgALcT0wfXQACGNvbXBsZXRlc3EAfgALYOXsu3QABWFwcGx5c3EAfgAL9pG283QAEW1hcFJlcXVlc3RDb250ZXh0c3EAfgALxQcyGXQADnBhdGhQcmVmaXhUZXN0c3EAfgAL1sNfvHQADUF1dGhlbnRpY2F0b3JzcQB+AAuewJNsdAAcZ2V0RnJvbUJyb3dzZWFibGVEaXJlY3Rvcmllc3NxAH4AC6dVRbh0AAxjb21wbGV0ZVdpdGhzcQB+AAuqipYMdAAMcGFyYW1ldGVyU2Vxc3EAfgAL4t4VeHQADm9wdGlvbmFsQ29va2llc3EAfgAL4eFiPnQAAj09c3EAfgALKrd013QABnNjaGVtZXNxAH4AC8PS1Td0ABRhdXRoZW50aWNhdGVPQXV0aDJQRnNxAH4AC2c87Cd0AAZjb29raWVzcQB+AAuE2IPTdAAUQXV0aGVudGljYXRpb25SZXN1bHRzcQB+AAtu4lCPdAAFU2xhc2hzcQB+AAu6xJoxdAAFY2xvbmVzcQB+AAtwd9L7dAAJYXV0aG9yaXplc3EAfgALpXhfPHQAFG1hcFJvdXRlUmVzdWx0RnV0dXJlc3EAfgALdyfIW3QAGWF1dGhlbnRpY2F0ZU9BdXRoMlBGQXN5bmNzcQB+AAvDJOtLdAAbUmVxdWVzdFRvU291cmNlVW5tYXJzaGFsbGVyc3EAfgAL7cni8HQAC2hlYWRlclZhbHVlc3EAfgALXjGYzXQACmhhbmRsZVdpdGhzcQB+AAvIP72YdAAQd2l0aE1hdGVyaWFsaXplcnNxAH4AC6oywlN0AAZkZWxldGVzcQB+AAsv2SAEdAARcmVjb3ZlclJlamVjdGlvbnNzcQB+AAtPI+iCdAAGJGluaXQkc3EAfgALkVwsWnQAFmRlbGV0ZUNvb2tpZSRkZWZhdWx0JDJzcQB+AAtelXB3dAAKYXNTb3VyY2VPZnNxAH4ACx80sit0AAZlbnRpdHlzcQB+AAsWj5vhdAAJc2V0Q29va2llc3EAfgALe4zzuHQABHBhc3NzcQB+AAtuU2PtdAAPZXh0cmFjdENsaWVudElQc3EAfgALLQ54EXQAA3B1dHNxAH4ACz3W64R0ABNhdXRoZW50aWNhdGVCYXNpY1BGc3EAfgALIdnlsHQAEXBhcmFtZXRlck11bHRpTWFwc3EAfgAL4cfNgHQAEHJlcGVhdCRkZWZhdWx0JDNzcQB+AAtnrVWadAAQbWFwUm91dGVSZXN1bHRQRnNxAH4ACyquek50AAh0b1N0cmluZ3NxAH4AC0sZQTx0ABNleHRyYWN0TWF0ZXJpYWxpemVyc3EAfgALTB5XYXQACWxvZ1Jlc3VsdHNxAH4ACw1rQHZ0ABtvdmVycmlkZU1ldGhvZFdpdGhQYXJhbWV0ZXJzcQB+AAvQ54OTdAAHd2l0aExvZ3NxAH4ACz4xH4B0AAhTZWdtZW50c3NxAH4AC16nL/d0AA5tYXBSb3V0ZVJlc3VsdHNxAH4AC03wHTR0AAIhPXNxAH4AC08BAEp0ABRleHRyYWN0UmVxdWVzdEVudGl0eXNxAH4AC/ePYf50ABFmb3JtRmllbGRNdWx0aU1hcHNxAH4AC37yY+B0AANnZXRzcQB+AAtQYQN1dAAUQXN5bmNBdXRoZW50aWNhdG9yUEZzcQB+AAuQgZ5YdAANd2l0aFNpemVMaW1pdHNxAH4AC22kPaF0AA5wYXRoU3VmZml4VGVzdHNxAH4AC/urpI50AAh0ZmxhdE1hcHNxAH4ACyzthgp0ABdzZWxlY3RQcmVmZXJyZWRMYW5ndWFnZXNxAH4AC8cWZPp0AAhnZXRDbGFzc3NxAH4AC7uT3410AAZyZXBlYXRzcQB+AAur633vdAARZGVjb2RlUmVxdWVzdFdpdGhzcQB+AAuX9UQndAARaGVhZGVyVmFsdWVCeVR5cGVzcQB+AAvWersNdAAQaGFuZGxlRXhjZXB0aW9uc3NxAH4AC6iL0Kx0AApwYXRoU3VmZml4c3EAfgALxhKgxXQAFWNvbXBsZXRlT3JSZWNvdmVyV2l0aHNxAH4AC4ZFZYh0ABV3aXRob3V0UmVxdWVzdFRpbWVvdXRzcQB+AAtruTqkdAAUbWFwUm91dGVSZXN1bHRXaXRoUEZzcQB+AAsVlmANdAAKb25Db21wbGV0ZXNxAH4AC5Sz2j50AAttYXBSZXNwb25zZXNxAH4AC7OAYGd0AAVwYXRjaHNxAH4AC0i3y6d0AAx1cGxvYWRlZEZpbGVzcQB+AAu1/mNEdAAObm90aGluZ01hdGNoZXJzcQB+AAueuDCVdAATX2RlZmF1bHRDbGFzc0xvYWRlcnNxAH4AC+oGpFp0ABBjYW5jZWxSZWplY3Rpb25zc3EAfgALmjzGl3QACEphdmFVVUlEc3EAfgAL7lCq5nQACmxvZ1JlcXVlc3RzcQB+AAsZ8gGAdAACbmVzcQB+AAsvP4HidAANbWFwUmVqZWN0aW9uc3NxAH4AC/E1ix90ABdleHRyYWN0RXhlY3V0aW9uQ29udGV4dHNxAH4ACz4IHZ50AApmb3JtRmllbGRzc3EAfgALN2YMU3QACXRyYW5zZm9ybXNxAH4ACwHV49N0ABlnZXRGcm9tUmVzb3VyY2UkZGVmYXVsdCQzc3EAfgALt8arAXQAFmF1dGhlbnRpY2F0ZUJhc2ljQXN5bmNzcQB+AAuVd/5CdAAKcGFyYW1ldGVyc3NxAH4AC+t9RfZ0AAF+c3EAfgALaTbTQHQAFGV4dHJhY3RVbm1hdGNoZWRQYXRoc3EAfgALe1eMKnQADU51bWJlck1hdGNoZXJzcQB+AAu3ZJbkdAAhYXV0aGVudGljYXRlT3JSZWplY3RXaXRoQ2hhbGxlbmdlc3EAfgALvx/jVXQAD2NoZWNrU2FtZU9yaWdpbnNxAH4ACwHxYjt0ABB3aXRob3V0U2l6ZUxpbWl0c3EAfgAL6RhhznQAAmVxc3EAfgALxiGq5HQADGZvcm1GaWVsZFNlcXNxAH4AC8l4uNR0ABJleHRyYWN0TWF0Y2hlZFBhdGhzcQB+AAsQfb91dAAMRG91YmxlTnVtYmVyc3EAfgALCoMYqXQADHdpdGhTZXR0aW5nc3NxAH4ACxidAIx0AAEvc3EAfgALJScHbnQADmV4dHJhY3RSZXF1ZXN0c3EAfgALW7Qn9nQACmV4dHJhY3RMb2dzcQB+AAsTUoq/dAASZXh0cmFjdENyZWRlbnRpYWxzc3EAfgALuWhhE3QADWRlY29kZVJlcXVlc3RzcQB+AAteWoFFdAARcmVzcG9uZFdpdGhIZWFkZXJzcQB+AAvj8hi3dAACIyNzcQB+AAsBQW2jdAAIZmluYWxpemVzcQB+AAvf+MvOdAAHZXh0cmFjdHNxAH4AC6Gk5bB0AAhoYXNoQ29kZXNxAH4AC7HmZmp0AA9leHRyYWN0U2V0dGluZ3NzcQB+AAtVwpC3dAALZnJvbUhleENoYXJzcQB+AAupoLUidAAZb3B0aW9uYWxIZWFkZXJWYWx1ZUJ5VHlwZXNxAH4AC/NLqkJ0ABFzZXBhcmF0ZU9uU2xhc2hlc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AfV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABVjb20uZXhhbXBsZS5XZWJTZXJ2ZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+Ag1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4B9UwACWluaGVyaXRlZHEAfgH1TAAHcGFyZW50c3EAfgH1eHEAfgISc3EAfgINdXEAfgHwAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgH2cQB+Af91cQB+AgAAAAAAc3EAfgICAHEAfgDfdXEAfgIFAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AhF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgIRc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgItdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4CGnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4CCHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4CIVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4CEXNxAH4CIHQABUFycmF5cQB+AiZ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4CIHQABlN0cmluZ3NxAH4CJHNxAH4CJ3VxAH4CKgAAAANzcQB+Aix0AARqYXZhc3EAfgIsdAAEbGFuZ3EAfgIxc3EAfgINdXEAfgHwAAAAAHNxAH4CDXVxAH4CRQAAACFzcQB+AiB0AAxTaW1wbGVSb3V0ZXNzcQB+AiRzcQB+Aid1cQB+AioAAAAEc3EAfgIsdAADY29tc3EAfgIsdAAHZXhhbXBsZXNxAH4CLHQABnJvdXRlc3EAfgIxc3EAfgIgdAAKRGlyZWN0aXZlc3NxAH4CJHNxAH4CJ3VxAH4CKgAAAAVzcQB+Aix0AARha2thc3EAfgIsdAAEaHR0cHNxAH4CLHQACHNjYWxhZHNsc3EAfgIsdAAGc2VydmVycQB+AjFzcQB+AiB0AB9GcmFtZWRFbnRpdHlTdHJlYW1pbmdEaXJlY3RpdmVzc3EAfgIkc3EAfgIndXEAfgIqAAAABnNxAH4CLHQABGFra2FzcQB+Aix0AARodHRwc3EAfgIsdAAIc2NhbGFkc2xzcQB+Aix0AAZzZXJ2ZXJzcQB+Aix0AApkaXJlY3RpdmVzcQB+AjFzcQB+AiB0ABNXZWJTb2NrZXREaXJlY3RpdmVzcQB+Am5zcQB+AiB0ABJTZWN1cml0eURpcmVjdGl2ZXNxAH4CbnNxAH4CIHQAEFNjaGVtZURpcmVjdGl2ZXNxAH4CbnNxAH4CIHQAD1JvdXRlRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAVUmVzcG9uZFdpdGhEaXJlY3RpdmVzcQB+Am5zcQB+AiB0AA9SYW5nZURpcmVjdGl2ZXNxAH4CbnNxAH4CIHQADlBhdGhEaXJlY3RpdmVzcQB+Am5zcQB+AiB0AB9JbXBsaWNpdFBhdGhNYXRjaGVyQ29uc3RydWN0aW9ucQB+AmFzcQB+AiB0AAxQYXRoTWF0Y2hlcnNxAH4CYXNxAH4CIHQAEVRpbWVvdXREaXJlY3RpdmVzcQB+Am5zcQB+AiB0ABNQYXJhbWV0ZXJEaXJlY3RpdmVzcQB+Am5zcQB+AiB0AA5NaXNjRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAQTWV0aG9kRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAVTWFyc2hhbGxpbmdEaXJlY3RpdmVzcQB+Am5zcQB+AiB0AA5Ib3N0RGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAQSGVhZGVyRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAQRnV0dXJlRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAATRm9ybUZpZWxkRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAcVG9OYW1lUmVjZXB0YWNsZUVuaGFuY2VtZW50c3NxAH4CJHNxAH4CJ3VxAH4CKgAAAAVzcQB+Aix0AARha2thc3EAfgIsdAAEaHR0cHNxAH4CLHQACHNjYWxhZHNsc3EAfgIsdAAGY29tbW9ucQB+AjFzcQB+AiB0ABRGaWxlVXBsb2FkRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAZRmlsZUFuZFJlc291cmNlRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAATRXhlY3V0aW9uRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAQQ29kaW5nRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAATRGVidWdnaW5nRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAQQ29va2llRGlyZWN0aXZlc3EAfgJuc3EAfgIgdAAYQ2FjaGVDb25kaXRpb25EaXJlY3RpdmVzcQB+Am5zcQB+AiB0AA9CYXNpY0RpcmVjdGl2ZXNxAH4CbnNxAH4CIHQAElJvdXRlQ29uY2F0ZW5hdGlvbnEAfgJhc3EAfgIgdAAGT2JqZWN0cQB+AklzcQB+AiB0AANBbnlxAH4CJnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAC2NvbS5leGFtcGxlc3EAfgLEdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcS5PDeXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADgvVXNlcnMvZ3VyZ2hldC9Eb2N1bWVudHMvc2hpZnQvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFIzIhzErex69Z/5cu7Nx8jIw083+
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw5B2YcAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAlzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHCjqz83dAAKX3N5bWJvbDJOUnNxAH4ACzSs73x0AAJldnNxAH4ACxApTth0AB5fZW5oYW5jZVJvdXRlV2l0aENvbmNhdGVuYXRpb25zcQB+AAu8vLNmdAAVX3ZhbHVlTWFwMlBhdGhNYXRjaGVyc3EAfgAL/74plHQAJ19zdHJpbmdOYW1lT3B0aW9uUmVjZXB0YWNsZTJQYXRoTWF0Y2hlcnNxAH4AC37PyQl0ACFfc3RyaW5nRXh0cmFjdGlvblBhaXIyUGF0aE1hdGNoZXJzcQB+AAs7vC7UdAAbX3NlZ21lbnRTdHJpbmdUb1BhdGhNYXRjaGVyc3EAfgALERA5u3QACl9zdHJpbmcyTlJzcQB+AAuix5G7dAASX3JlZ2V4MlBhdGhNYXRjaGVydXEAfgAJAAAA73NxAH4ACw6u7ct0ABVleHRyYWN0UGFyc2VyU2V0dGluZ3NzcQB+AAtJhLPsdAAJZm9ybUZpZWxkc3EAfgALwzsImnQAEHdpdGhSYW5nZVN1cHBvcnRzcQB+AAtbSdArdAASd2l0aFJlcXVlc3RUaW1lb3V0c3EAfgALx3bRV3QAFHBhdGhFbmRPclNpbmdsZVNsYXNoc3EAfgALw+bcfHQABm5vdGlmeXNxAH4AC+bRinp0AAlJbnROdW1iZXJzcQB+AAvmF+X/dAARYXV0aGVudGljYXRlQmFzaWNzcQB+AAskV94odAATZXh0cmFjdFN0cmljdEVudGl0eXNxAH4AC8mNMaF0AA9wYXRoU2luZ2xlU2xhc2hzcQB+AAtAeJ8VdAAYcmVzcG9uc2VFbmNvZGluZ0FjY2VwdGVkc3EAfgALnJCmnXQABm1ldGhvZHNxAH4ACyJWhrB0AARwb3N0c3EAfgALUBrRPXQAEm1hcFJvdXRlUmVzdWx0V2l0aHNxAH4AC903r5F0ABdhdXRoZW50aWNhdGVPQXV0aDJBc3luY3NxAH4ACxa7X5d0ABFoZWFkZXJWYWx1ZUJ5TmFtZXNxAH4AC9JugAl0AApmaWxlVXBsb2Fkc3EAfgALqBKKlHQADVJlbWFpbmluZ1BhdGhzcQB+AAvMQVb9dAAJUmVtYWluaW5nc3EAfgALmRX58nQAFW9wdGlvbmFsSGVhZGVyVmFsdWVQRnNxAH4AC2pO73N0AAh0cHJvdmlkZXNxAH4AC5eWGkJ0AAlwYXJhbWV0ZXJzcQB+AAsySrGpdAANZXh0cmFjdE1ldGhvZHNxAH4AC54yFnF0ABlyZXNwb25kV2l0aERlZmF1bHRIZWFkZXJzc3EAfgALjGb7UnQAEnJlc3BvbmRXaXRoSGVhZGVyc3NxAH4AC73ZWnB0AAdiaW5kaW5nc3EAfgAL5AjwVHQAGndpdGhSZXF1ZXN0VGltZW91dFJlc3BvbnNlc3EAfgALlMh6NXQABHdhaXRzcQB+AAtJo3u0dAAVbGlzdERpcmVjdG9yeUNvbnRlbnRzc3EAfgALc9a7fHQAGWV4dHJhY3RVcGdyYWRlVG9XZWJTb2NrZXRzcQB+AAvPh8tQdAANJGFzSW5zdGFuY2VPZnNxAH4ACytZBPx0AARwYXRoc3EAfgALHV6Fm3QAGWV4dHJhY3RPZmZlcmVkV3NQcm90b2NvbHNzcQB+AAumN+zidAAKaW5zdGFuY2VPZnNxAH4AC3VRTg50AAdOZXV0cmFsc3EAfgALC/YZqXQAB2NvbXBvc2VzcQB+AAsADzlgdAAIcmVkaXJlY3RzcQB+AAttHMQfdAAScmVxdWVzdEVudGl0eUVtcHR5c3EAfgALn7WVFHQADWhlYWRlclZhbHVlUEZzcQB+AAsGppamdAAOYXV0aG9yaXplQXN5bmNzcQB+AAvEm+yfdAAHUGF0aEVuZHNxAH4AC44TQTN0AA9mcm9tRGVjaW1hbENoYXJzcQB+AAuIyUtPdAAMZm9ybUZpZWxkTWFwc3EAfgALV1SmJHQAEGV4dHJhY3REYXRhQnl0ZXNzcQB+AAv+w4f0dAAGZXF1YWxzc3EAfgALBUtS23QAD0F1dGhlbnRpY2F0b3JQRnNxAH4AC8L1q950AAhtaW51c09uZXNxAH4AC5PHqP10ABFyYXdQYXRoUHJlZml4VGVzdHNxAH4ACwR7a4l0ABhnZXRGcm9tUmVzb3VyY2VEaXJlY3RvcnlzcQB+AAutCfbtdAATb3B0aW9uYWxIZWFkZXJWYWx1ZXNxAH4AC8GApm10ABBnZXRGcm9tRGlyZWN0b3J5c3EAfgALtKbnV3QACHRleHRyYWN0c3EAfgALfDDEdXQACm1heERpdkJhc2VzcQB+AAs3YufPdAAiZ2V0RnJvbVJlc291cmNlRGlyZWN0b3J5JGRlZmF1bHQkMnNxAH4ACw9xvFB0AAttYXBTZXR0aW5nc3NxAH4AC7StJDJ0AARoZWFkc3EAfgALsygGeXQAF2hhbmRsZVdlYlNvY2tldE1lc3NhZ2Vzc3EAfgALXIS5DHQADGFzSW5zdGFuY2VPZnNxAH4AC1Ufas90ABBoYW5kbGVSZWplY3Rpb25zc3EAfgAL5Dd5qnQACnBhdGhQcmVmaXhzcQB+AAv44foidAAOZXhlY3V0aW9uU3RhcnRzcQB+AAuffP7PdAANSGV4TG9uZ051bWJlcnNxAH4AC85GlHV0ACpoYW5kbGVXZWJTb2NrZXRNZXNzYWdlc0Zvck9wdGlvbmFsUHJvdG9jb2xzcQB+AAtmqTHTdAAMSGV4SW50TnVtYmVyc3EAfgALrl6JkXQABGhvc3RzcQB+AAt5XqdtdAAYcmVzcG9uZFdpdGhEZWZhdWx0SGVhZGVyc3EAfgALes6xkXQADHBhcmFtZXRlck1hcHNxAH4ACyHbA+p0AA50b1N0cmljdEVudGl0eXNxAH4AC2hjxIJ0AApMb25nTnVtYmVyc3EAfgALy4kZc3QACHZhbGlkYXRlc3EAfgALGa3BZnQADHN5bmNocm9uaXplZHNxAH4AC/i6o/B0ABNyZWplY3RFbXB0eVJlc3BvbnNlc3EAfgAL4ZsAN3QACGZyb21DaGFyc3EAfgALYTrmLnQAB3VuYXJ5XyFzcQB+AAt+J/zvdAAPZ2V0RnJvbVJlc291cmNlc3EAfgALkKLUZ3QAEnJlcXVlc3RFbmNvZGVkV2l0aHNxAH4AC3pbgjx0AAZjb25jYXRzcQB+AAujiBJ+dAAhd2l0aFByZWNvbXByZXNzZWRNZWRpYVR5cGVTdXBwb3J0c3EAfgALf1X6rnQAEmF1dGhlbnRpY2F0ZU9BdXRoMnNxAH4AC6H+Xtx0ABVyZWNvdmVyUmVqZWN0aW9uc1dpdGhzcQB+AAv0OrK9dAANJGlzSW5zdGFuY2VPZnNxAH4AC/1sIy90ABV3YWl0Rm9yU2h1dGRvd25TaWduYWxzcQB+AAsPzFXLdAAPY2FuY2VsUmVqZWN0aW9uc3EAfgALt+3F9HQAIHJlZGlyZWN0VG9UcmFpbGluZ1NsYXNoSWZNaXNzaW5nc3EAfgALiOsFMXQAB2FuZFRoZW5zcQB+AAu7/BLCdAAMZGVsZXRlQ29va2llc3EAfgALnxQAWnQAAmFzc3EAfgAL2gKTA3QADWV4dHJhY3RTY2hlbWVzcQB+AAvcUYuLdAASQXN5bmNBdXRoZW50aWNhdG9yc3EAfgALacvCf3QAGGF1dGhlbnRpY2F0ZUJhc2ljUEZBc3luY3NxAH4AC4r74510AAF8c3EAfgAL7EkWl3QAC2V4dHJhY3RIb3N0c3EAfgALLW1GDXQAFmRlbGV0ZUNvb2tpZSRkZWZhdWx0JDNzcQB+AAsMY4JpdAASbWFwUmVzcG9uc2VIZWFkZXJzc3EAfgALhZ1MLnQAFHJlcXVlc3RFbnRpdHlQcmVzZW50c3EAfgALgXX5BHQADmVuY29kZVJlc3BvbnNlc3EAfgALjb01EHQABG1haW5zcQB+AAuoFy1ndAASZXh0cmFjdEFjdG9yU3lzdGVtc3EAfgALNkrAcHQAFWV4dHJhY3RSZXF1ZXN0Q29udGV4dHNxAH4AC23Fjyt0ABJlbmNvZGVSZXNwb25zZVdpdGhzcQB+AAvTeVoGdAAHcHJvdmlkZXNxAH4AC7XxFHJ0AAZyZWplY3RzcQB+AAsgYlVsdAAJbm90aWZ5QWxsc3EAfgALdc2D+nQAGmdldEZyb21Ccm93c2VhYmxlRGlyZWN0b3J5c3EAfgAL7QkodXQAC2NvbmRpdGlvbmFsc3EAfgALpciGFXQAGW9wdGlvbmFsSGVhZGVyVmFsdWVCeU5hbWVzcQB+AAstzWKDdAAEdG1hcHNxAH4AC6KRgMd0AApleHRyYWN0VXJpc3EAfgALUSusanQADGlzSW5zdGFuY2VPZnNxAH4AC1ShFFV0ACJyZWRpcmVjdFRvTm9UcmFpbGluZ1NsYXNoSWZQcmVzZW50c3EAfgALS+7aeXQAB3BhdGhFbmRzcQB+AAu0NMCJdAANcmF3UGF0aFByZWZpeHNxAH4AC87hWIN0AAdvcHRpb25zc3EAfgALQnH9ZnQACm1hcFJlcXVlc3RzcQB+AAtjfwzldAAPcG9zdEh0dHBCaW5kaW5nc3EAfgALaYQu1XQAImhhbmRsZVdlYlNvY2tldE1lc3NhZ2VzRm9yUHJvdG9jb2xzcQB+AAs9xKnIdAAJb25TdWNjZXNzc3EAfgALyqti7XQAEW1hcFJlc3BvbnNlRW50aXR5c3EAfgAL1ysa+3QAFHdpdGhFeGVjdXRpb25Db250ZXh0c3EAfgALU9XhJXQACGZhaWxXaXRoc3EAfgALCMohiXQAEG1hcFVubWF0Y2hlZFBhdGhzcQB+AAs3K+4QdAAGPGluaXQ+c3EAfgALe8bbjnQAC2dldEZyb21GaWxlc3EAfgALCjFA3HQAFW9uQ29tcGxldGVXaXRoQnJlYWtlcnNxAH4ACyZ0DHx0ABBsb2dSZXF1ZXN0UmVzdWx0c3EAfgALSABpLnQADW1hcElubmVyUm91dGVzcQB+AAt85QxmdAAHU2VnbWVudHNxAH4AC7+5ROl0AAhjb21wbGV0ZXNxAH4ACz1Try10AAVhcHBseXNxAH4AC9iUJyR0ABFtYXBSZXF1ZXN0Q29udGV4dHNxAH4ACyBd2Ud0AA5wYXRoUHJlZml4VGVzdHNxAH4AC0Cn8g50AA1BdXRoZW50aWNhdG9yc3EAfgALD5JE+XQAHGdldEZyb21Ccm93c2VhYmxlRGlyZWN0b3JpZXNzcQB+AAum71/qdAAMY29tcGxldGVXaXRoc3EAfgALq6cLQnQADHBhcmFtZXRlclNlcXNxAH4ACwmsKNF0AA5vcHRpb25hbENvb2tpZXNxAH4ACxP16dl0AAI9PXNxAH4ACzfO4Y50AAZzY2hlbWVzcQB+AAvQmTYSdAAUYXV0aGVudGljYXRlT0F1dGgyUEZzcQB+AAsGrb2DdAAGY29va2llc3EAfgALGnFMPHQAFEF1dGhlbnRpY2F0aW9uUmVzdWx0c3EAfgALOpjxznQABVNsYXNoc3EAfgALZq7G53QABWNsb25lc3EAfgALqIphU3QACWF1dGhvcml6ZXNxAH4ACxNvP8V0ABRtYXBSb3V0ZVJlc3VsdEZ1dHVyZXNxAH4AC/2GIXl0ABlhdXRoZW50aWNhdGVPQXV0aDJQRkFzeW5jc3EAfgAL0ON2fHQAG1JlcXVlc3RUb1NvdXJjZVVubWFyc2hhbGxlcnNxAH4AC+NActF0AAtoZWFkZXJWYWx1ZXNxAH4ACz+ZNft0AApoYW5kbGVXaXRoc3EAfgALwvUPRnQAEHdpdGhNYXRlcmlhbGl6ZXJzcQB+AAtXsodUdAAGZGVsZXRlc3EAfgALA7B/2XQAEXJlY292ZXJSZWplY3Rpb25zc3EAfgALCoKQwnQABiRpbml0JHNxAH4ACw2Upqd0ABZkZWxldGVDb29raWUkZGVmYXVsdCQyc3EAfgALSD5tHHQACmFzU291cmNlT2ZzcQB+AAvB7kJpdAAGZW50aXR5c3EAfgAL0NAfK3QACXNldENvb2tpZXNxAH4AC5yBthJ0AARwYXNzc3EAfgALvuzof3QAD2V4dHJhY3RDbGllbnRJUHNxAH4AC716LAF0AANwdXRzcQB+AAv04f/EdAATYXV0aGVudGljYXRlQmFzaWNQRnNxAH4AC3atSY50ABFwYXJhbWV0ZXJNdWx0aU1hcHNxAH4AC1lSqI50ABByZXBlYXQkZGVmYXVsdCQzc3EAfgALZDYoTXQAEG1hcFJvdXRlUmVzdWx0UEZzcQB+AAvTUKmLdAAIdG9TdHJpbmdzcQB+AAt7fq3JdAATZXh0cmFjdE1hdGVyaWFsaXplcnNxAH4AC4P3WGR0AARhcmdzc3EAfgALr8JNgXQACWxvZ1Jlc3VsdHNxAH4ACz+z3IB0ABtvdmVycmlkZU1ldGhvZFdpdGhQYXJhbWV0ZXJzcQB+AAvexfhCdAAHd2l0aExvZ3NxAH4AC9lUtV10AAhTZWdtZW50c3NxAH4AC9DNyRJ0ABZwb3N0SHR0cEJpbmRpbmdGYWlsdXJlc3EAfgALQVscMXQADm1hcFJvdXRlUmVzdWx0c3EAfgALIaUtAHQAAiE9c3EAfgALmr48wXQAEFdlYlNlcnZlckh0dHBBcHBzcQB+AAsFo7xydAAUZXh0cmFjdFJlcXVlc3RFbnRpdHlzcQB+AAuqRUwpdAARZm9ybUZpZWxkTXVsdGlNYXBzcQB+AAtTtktXdAADZ2V0c3EAfgALoQ3ZdnQABXJvdXRlc3EAfgALTt5esHQAFEFzeW5jQXV0aGVudGljYXRvclBGc3EAfgALOzaFbnQADXdpdGhTaXplTGltaXRzcQB+AAub1PMcdAAOcGF0aFN1ZmZpeFRlc3RzcQB+AAv9FBmZdAAIdGZsYXRNYXBzcQB+AAv8UwqIdAAXc2VsZWN0UHJlZmVycmVkTGFuZ3VhZ2VzcQB+AAu2aq1adAAIZ2V0Q2xhc3NzcQB+AAvc/wCYdAALc3RhcnRTZXJ2ZXJzcQB+AAv9azDTdAAGcmVwZWF0c3EAfgALeKt8/3QAEWRlY29kZVJlcXVlc3RXaXRoc3EAfgALYR2kfnQAEWhlYWRlclZhbHVlQnlUeXBlc3EAfgALr8KvdnQAEGhhbmRsZUV4Y2VwdGlvbnNzcQB+AAtHe/y7dAAScG9zdFNlcnZlclNodXRkb3duc3EAfgALQ40Xq3QACnBhdGhTdWZmaXhzcQB+AAvkIkaVdAAVY29tcGxldGVPclJlY292ZXJXaXRoc3EAfgALNjq8kXQAFXdpdGhvdXRSZXF1ZXN0VGltZW91dHNxAH4ACxQORhp0ABRtYXBSb3V0ZVJlc3VsdFdpdGhQRnNxAH4AC8oPGUN0AApvbkNvbXBsZXRlc3EAfgALme5AO3QAC21hcFJlc3BvbnNlc3EAfgALAUwFkXQABXBhdGNoc3EAfgALEXBRbnQADHVwbG9hZGVkRmlsZXNxAH4AC+ddTHZ0AA5ub3RoaW5nTWF0Y2hlcnNxAH4AC84wbt10ABNfZGVmYXVsdENsYXNzTG9hZGVyc3EAfgALwTLrA3QAEGNhbmNlbFJlamVjdGlvbnNzcQB+AAu0SdF/dAAPc3lzdGVtUmVmZXJlbmNlc3EAfgALxHoBeXQACEphdmFVVUlEc3EAfgALoKZf6nQACmxvZ1JlcXVlc3RzcQB+AAu4bJRAdAACbmVzcQB+AAtJa0zgdAANbWFwUmVqZWN0aW9uc3NxAH4AC1ZVbCF0ABdleHRyYWN0RXhlY3V0aW9uQ29udGV4dHNxAH4ACwWnZEJ0AApmb3JtRmllbGRzc3EAfgAL4WRPvHQACXRyYW5zZm9ybXNxAH4AC3qrKEZ0ABlnZXRGcm9tUmVzb3VyY2UkZGVmYXVsdCQzc3EAfgALHhWHJ3QAFmF1dGhlbnRpY2F0ZUJhc2ljQXN5bmNzcQB+AAt9fN7KdAAKcGFyYW1ldGVyc3NxAH4ACzchsj90AAF+c3EAfgALKTTm63QAFGV4dHJhY3RVbm1hdGNoZWRQYXRoc3EAfgALmt6T83QADU51bWJlck1hdGNoZXJzcQB+AAtBm69SdAAhYXV0aGVudGljYXRlT3JSZWplY3RXaXRoQ2hhbGxlbmdlc3EAfgALtDpdGXQAD2NoZWNrU2FtZU9yaWdpbnNxAH4ACw+kZxt0ABB3aXRob3V0U2l6ZUxpbWl0c3EAfgALkVcuNnQAAmVxc3EAfgALChwnY3QADGZvcm1GaWVsZFNlcXNxAH4ACxZTJOx0ABJleHRyYWN0TWF0Y2hlZFBhdGhzcQB+AAvttj0JdAAMRG91YmxlTnVtYmVyc3EAfgAL2SWr23QADHdpdGhTZXR0aW5nc3NxAH4AC7gLe0l0AAEvc3EAfgALLsAUanQADmV4dHJhY3RSZXF1ZXN0c3EAfgALcHQk/XQACmV4dHJhY3RMb2dzcQB+AAtQRBxzdAASZXh0cmFjdENyZWRlbnRpYWxzc3EAfgALR0QWBnQADWRlY29kZVJlcXVlc3RzcQB+AAsm+r19dAARcmVzcG9uZFdpdGhIZWFkZXJzcQB+AAvQ9s5PdAALZGVsYXllZEluaXRzcQB+AAsqDdCgdAACIyNzcQB+AAt4136sdAAIZmluYWxpemVzcQB+AAtJWaKldAAHZXh0cmFjdHNxAH4ACwkvlSd0AAhoYXNoQ29kZXNxAH4AC3s6FPh0AA9leHRyYWN0U2V0dGluZ3NzcQB+AAs2qeXddAALZnJvbUhleENoYXJzcQB+AAtd8V3pdAAZb3B0aW9uYWxIZWFkZXJWYWx1ZUJ5VHlwZXNxAH4AC+BU7JF0ABFzZXBhcmF0ZU9uU2xhc2hlc3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+Agd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABxjb20uZXhhbXBsZS5XZWJTZXJ2ZXJIdHRwQXBwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgIhc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AgdMAAlpbmhlcml0ZWRxAH4CB0wAB3BhcmVudHNxAH4CB3hxAH4CJnNxAH4CIXVxAH4CAgAAAABzcQB+AiF1cQB+AgIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AghxAH4CEXVxAH4CEgAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AjB4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgAMTAAFdmFsdWVxAH4ADHhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CJXQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgIlc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgJKc3EAfgIUAHEAfgDhdXEAfgIXAAAAAHNxAH4CPXQABFVuaXRxAH4CQ3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgAMTAADdHBlcQB+AjB4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+Ahp0AAVQbGFpbnEAfgFtc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgI+WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgIlc3EAfgI9dAAFQXJyYXlxAH4CQ3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgI9dAAGU3RyaW5nc3EAfgJBc3EAfgJEdXEAfgJHAAAAA3NxAH4CSXQABGphdmFzcQB+Akl0AARsYW5ncQB+Ak5zcQB+AiF1cQB+AmUAAAAjc3EAfgI9dAADQXBwcQB+AkNzcQB+Aj10AAtEZWxheWVkSW5pdHEAfgJDc3EAfgI9dAAHSHR0cEFwcHNxAH4CQXNxAH4CRHVxAH4CRwAAAAVzcQB+Akl0AARha2thc3EAfgJJdAAEaHR0cHNxAH4CSXQACHNjYWxhZHNsc3EAfgJJdAAGc2VydmVycQB+Ak5zcQB+Aj10AApEaXJlY3RpdmVzcQB+AnhzcQB+Aj10AB9GcmFtZWRFbnRpdHlTdHJlYW1pbmdEaXJlY3RpdmVzc3EAfgJBc3EAfgJEdXEAfgJHAAAABnNxAH4CSXQABGFra2FzcQB+Akl0AARodHRwc3EAfgJJdAAIc2NhbGFkc2xzcQB+Akl0AAZzZXJ2ZXJzcQB+Akl0AApkaXJlY3RpdmVzcQB+Ak5zcQB+Aj10ABNXZWJTb2NrZXREaXJlY3RpdmVzcQB+AodzcQB+Aj10ABJTZWN1cml0eURpcmVjdGl2ZXNxAH4Ch3NxAH4CPXQAEFNjaGVtZURpcmVjdGl2ZXNxAH4Ch3NxAH4CPXQAD1JvdXRlRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAVUmVzcG9uZFdpdGhEaXJlY3RpdmVzcQB+AodzcQB+Aj10AA9SYW5nZURpcmVjdGl2ZXNxAH4Ch3NxAH4CPXQADlBhdGhEaXJlY3RpdmVzcQB+AodzcQB+Aj10AB9JbXBsaWNpdFBhdGhNYXRjaGVyQ29uc3RydWN0aW9ucQB+AnhzcQB+Aj10AAxQYXRoTWF0Y2hlcnNxAH4CeHNxAH4CPXQAEVRpbWVvdXREaXJlY3RpdmVzcQB+AodzcQB+Aj10ABNQYXJhbWV0ZXJEaXJlY3RpdmVzcQB+AodzcQB+Aj10AA5NaXNjRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAQTWV0aG9kRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAVTWFyc2hhbGxpbmdEaXJlY3RpdmVzcQB+AodzcQB+Aj10AA5Ib3N0RGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAQSGVhZGVyRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAQRnV0dXJlRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAATRm9ybUZpZWxkRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAcVG9OYW1lUmVjZXB0YWNsZUVuaGFuY2VtZW50c3NxAH4CQXNxAH4CRHVxAH4CRwAAAAVzcQB+Akl0AARha2thc3EAfgJJdAAEaHR0cHNxAH4CSXQACHNjYWxhZHNsc3EAfgJJdAAGY29tbW9ucQB+Ak5zcQB+Aj10ABRGaWxlVXBsb2FkRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAZRmlsZUFuZFJlc291cmNlRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAATRXhlY3V0aW9uRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAQQ29kaW5nRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAATRGVidWdnaW5nRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAQQ29va2llRGlyZWN0aXZlc3EAfgKHc3EAfgI9dAAYQ2FjaGVDb25kaXRpb25EaXJlY3RpdmVzcQB+AodzcQB+Aj10AA9CYXNpY0RpcmVjdGl2ZXNxAH4Ch3NxAH4CPXQAElJvdXRlQ29uY2F0ZW5hdGlvbnEAfgJ4c3EAfgI9dAAGT2JqZWN0cQB+AmlzcQB+Aj10AANBbnlxAH4CQ3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAC2NvbS5leGFtcGxlc3EAfgLddAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFcSu9SpnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0ADgvVXNlcnMvZ3VyZ2hldC9Eb2N1bWVudHMvc2hpZnQvdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFHcdHbhWBL5JDuZLzWF708Ld+Ny/
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw6KIpxgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAkc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEpPYz3QABm5vdGlmeXNxAH4ADCq9DYh0AAd1bmFwcGx5c3EAfgAMPLGLjHQABHdhaXRzcQB+AAxJCwUKdAANJGFzSW5zdGFuY2VPZnNxAH4ADNcZdLp0AAdjb21wb3Nlc3EAfgAMVtUtZ3QADHByb2R1Y3RBcml0eXNxAH4ADESbkzV0AAZlcXVhbHNzcQB+AAzpXtnUdAAMYXNJbnN0YW5jZU9mc3EAfgAMY2+LxXQADHN5bmNocm9uaXplZHNxAH4ADHQhUE90AAVteUludHNxAH4ADDPstKh0AA0kaXNJbnN0YW5jZU9mc3EAfgAMZ6WOHnQAB2FuZFRoZW5zcQB+AAyhtAxbdAAIY2FuRXF1YWxzcQB+AAyoXvXydAANcHJvZHVjdFByZWZpeHNxAH4ADGrPYZh0AAlub3RpZnlBbGxzcQB+AAziEIpqdAAMaXNJbnN0YW5jZU9mc3EAfgAMA4r273QABjxpbml0PnNxAH4ADHItCzZ0AAVhcHBseXNxAH4ADDz7D8h0AAI9PXNxAH4ADK8qB9t0AAVjbG9uZXNxAH4ADCgG6kV0AApiYXNlUm91dGVzc3EAfgAMRUy20HQAA2ludHNxAH4ADFHC64N0AApCYXNlUm91dGVzc3EAfgAMoSFN5XQABiRpbml0JHNxAH4ADAYKSZB0AARjb3B5c3EAfgAMdM7UDnQACHRvU3RyaW5nc3EAfgAMwkJ7L3QAAiE9c3EAfgAMKOGakXQACGdldENsYXNzc3EAfgAMReNVInQADmNvcHkkZGVmYXVsdCQxc3EAfgAMq0TVf3QAAm5lc3EAfgAMf+RcKnQAAmVxc3EAfgAMjiCp13QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADAgJLX90AAIjI3NxAH4ADMLeDjN0AAhmaW5hbGl6ZXNxAH4ADHhRDJ90AA5wcm9kdWN0RWxlbWVudHNxAH4ADCR4Mbp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AB1jb20uZXhhbXBsZS5yb3V0ZXMuQmFzZVJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ad3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBfTAAJaW5oZXJpdGVkcQB+AF9MAAdwYXJlbnRzcQB+AF94cQB+AHxzcQB+AHd1cQB+AFoAAAAAc3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ae3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AlHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlXNxAH4AiHQAA0FueXNxAH4AjHNxAH4Aj3VxAH4AkgAAAAJzcQB+AJR0AAVzY2FsYXEAfgCbdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAASY29tLmV4YW1wbGUucm91dGVzc3EAfgCldAALY29tLmV4YW1wbGVzcQB+AKV0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVxLk69fdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOC9Vc2Vycy9ndXJnaGV0L0RvY3VtZW50cy9zaGlmdC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnfD6DbbcxSu4LV/bxmfiYCzXn9U=
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwWU5nwwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAWc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hww7RukHQABm5vdGlmeXNxAH4ADHu4tQR0AAR3YWl0c3EAfgAMVnpIv3QADSRhc0luc3RhbmNlT2ZzcQB+AAy8nZzsdAAGZXF1YWxzc3EAfgAMfhpsU3QADGFzSW5zdGFuY2VPZnNxAH4ADGl6hA90AAxzeW5jaHJvbml6ZWRzcQB+AAw/MFoNdAANJGlzSW5zdGFuY2VPZnNxAH4ADNOTmpl0AAxzaW1wbGVSb3V0ZXNzcQB+AAy86LmsdAAJbm90aWZ5QWxsc3EAfgAMuXkiU3QADGlzSW5zdGFuY2VPZnNxAH4ADKOvBYJ0AAI9PXNxAH4ADM6i8Mt0AAVjbG9uZXNxAH4ADGmdyi90AAxTaW1wbGVSb3V0ZXNzcQB+AAzlMOfadAAGJGluaXQkc3EAfgAM+mUpFHQACHRvU3RyaW5nc3EAfgAMcc0zoHQAAiE9c3EAfgAMAaj1HnQACGdldENsYXNzc3EAfgAMNTx68XQAAm5lc3EAfgAMHXt36nQAAmVxc3EAfgAMCTTAn3QAAiMjc3EAfgAMZT+synQACGZpbmFsaXplc3EAfgAMO0GnH3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAXQAH2NvbS5leGFtcGxlLnJvdXRlcy5TaW1wbGVSb3V0ZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AW3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGBzcQB+AFt1cQB+AD4AAAAAc3EAfgBbdXEAfgA+AAAAAHNxAH4AW3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AX3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AX3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AeHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeXNxAH4AbHQAA0FueXNxAH4AcHNxAH4Ac3VxAH4AdgAAAAJzcQB+AHh0AAVzY2FsYXEAfgB/dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAASY29tLmV4YW1wbGUucm91dGVzc3EAfgCJdAALY29tLmV4YW1wbGVzcQB+AIl0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVxK71KmdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAOC9Vc2Vycy9ndXJnaGV0L0RvY3VtZW50cy9zaGlmdC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAURqO0Q22woRphULFDqu6hOZFbCLc=
+external apis:
+0 items
+source infos:
+4 items
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServer.scala -> 
+AAAAAAAAAAA=
+/Users/gurghet/Documents/shift/src/main/scala/com/example/WebServerHttpApp.scala -> 
+AAAAAAAAAAA=
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/BaseRoutes.scala -> 
+AAAAAAAAAAA=
+/Users/gurghet/Documents/shift/src/main/scala/com/example/routes/SimpleRoutes.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXErvUqZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ndXJnaGV0L0RvY3VtZW50cy9zaGlmdC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXEuTr191cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ndXJnaGV0L0RvY3VtZW50cy9zaGlmdC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXEuTw3l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOC9Vc2Vycy9ndXJnaGV0L0RvY3VtZW50cy9zaGlmdC90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABLw==

@@ -1,0 +1,4 @@
+;reload; */*:dumpStructureTo /private/var/folders/60/n6px0mfj04g1hxvsfx6c2sm00000gn/T/sbt-structure.xml download resolveClassifiers
+run
+;reload; */*:dumpStructureTo /private/var/folders/60/n6px0mfj04g1hxvsfx6c2sm00000gn/T/sbt-structure.xml download resolveClassifiers
+run
